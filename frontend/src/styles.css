@@ -1,0 +1,14 @@
+body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; padding:0; background:#fafafa; color:#111 }
+.topbar { background:#222; color:#fff; padding:12px 20px }
+.container { display:flex; gap:24px; padding:20px }
+.left { flex:1; max-width:900px }
+.right { width:360px }
+.form { display:grid; gap:8px; background:#fff; padding:12px; border-radius:8px; box-shadow:0 1px 3px rgba(0,0,0,0.06) }
+.form label { display:flex; flex-direction:column; font-size:14px }
+.btn { margin-top:8px; padding:8px 12px; border-radius:6px; border:1px solid #111; background:#111; color:#fff }
+.brew-list { margin-top:8px; background:#fff; padding:8px; border-radius:8px }
+.brew-item { padding:8px; border-bottom:1px solid #eee }
+.brew-title { font-weight:600 }
+.muted { color:#666; font-size:13px }
+.suggestions { display:grid; gap:8px; margin-top:8px }
+.suggestion { background:#fff; padding:8px; border-radius:8px }
